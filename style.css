@@ -1,0 +1,239 @@
+body {
+    background-color: #F2F2F2;
+    background-image: url("bahan/Group\ 113.png");
+    background-repeat: repeat;
+}
+
+.link {
+    color: #000;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #FFF;
+    background-color: #A80000;
+    text-decoration: none;
+}
+
+.link-pk {
+    color: #A80000;
+    text-decoration: none;
+}
+
+.link-pk:hover {
+    color: #FFF;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #A80000;
+    text-decoration: none;
+}
+
+.link-eskul {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.link-eskul:hover {
+    background-color: #FFF;
+    color: #A80000;
+}
+
+.navigasi-link:hover {
+    background-color: #E5E5E5;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #FFF !important;
+    text-decoration: none;
+}
+
+.backtotop {
+    position: fixed;
+    bottom: 20;
+    right: 20;
+    width: 50px;
+}
+
+.img-card {
+    max-width: 100%;
+    height: auto;
+}
+
+.col-6-a {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.lingkaran {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: linear-gradient(#630000, #A80000);
+    margin-bottom: -120px;
+    position: relative;
+}
+
+.lingkaran img {
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+}
+
+.lingkaran-center {
+    justify-content: center;
+    display: flex;
+}
+
+.rectangle {
+    padding-top: 50px;
+    width: auto;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 8px;
+    background: linear-gradient(#A80000, #630000);
+}
+
+.rec-pk {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: auto;
+    color: #FFF;
+    background: linear-gradient(#A80000, #630000);
+}
+
+.rec-profile {
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(#A80000, #630000);
+    height: auto;
+}
+
+.rec-profile-2 {
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
+    height: auto;
+}
+
+.vm {
+    margin-top: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.img-profile {
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+    padding: 2px;
+}
+
+.img-fluid-pk {
+    max-width: 50%;
+    height: auto;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.scroll {
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    margin-top: 5px;
+    width: 100%;
+    height: 1000px;
+    overflow: scroll;
+}
+
+.auto {
+    display: block;
+    border: 1px solid #630000;
+    padding: 5px;
+    margin-top: 5px;
+    width: 300px;
+    height: 50px;
+    overflow: auto;
+}
+
+
+/* Desktop */
+
+@media (min-width: 993px) {
+    .carousel_text {
+        font-size: 15px;
+    }
+    h1,
+    .h1 {
+        font-size: 2.5rem;
+    }
+    .img-card {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+
+/* Ponsel */
+
+@media (max-width: 768px) {
+    /* Text in carousel */
+    .carousel_text {
+        font-size: 10px;
+    }
+    /* H1 */
+    h1,
+    .h1 {
+        font-size: 1.50rem;
+    }
+    h4,
+    .h4 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 12px;
+    }
+    ul,
+    .li {
+        font-size: 12px;
+    }
+    /* Carousel caption SMKN1BUKATEJA */
+    .carousel-caption {
+        display: none;
+    }
+    .img-card {
+        display: none;
+    }
+    .col-6-a {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
+
+
+/* Tablet */
+
+@media (max-width: 992px) and (min-width: 601px) {
+    .carousel_text {
+        font-size: 14px;
+    }
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 70%;
+    }
+    .img-card {
+        display: none;
+    }
+    .col-6-a {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+}
